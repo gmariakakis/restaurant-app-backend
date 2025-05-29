@@ -1,0 +1,24 @@
+### Invalid UUID format
+GET {{BASE_URL}}/books/not-a-uuid
+Accept: {{Accept}}
+
+> {%
+    client.test("Invalid UUID format => returns 400", function() {
+        client.assert(response.status === 400, "Expected 400 but got " + response.status);
+    });
+%}
+
+### Missing fields on create
+POST {{BASE_URL}}/books
+Content-Type: {{contentType}}
+Authorization: Bearer {{token}}
+
+{
+  "title": ""
+}
+
+> {%
+    client.test("Missing fields => returns 400", function() {
+        client.assert(response.status === 400, "Expected 400 but got " + response.status);
+    });
+%}

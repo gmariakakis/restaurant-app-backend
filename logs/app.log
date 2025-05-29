@@ -1,0 +1,1995 @@
+2025-03-28 20:30:09 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-03-28 20:30:09 [INFO] 🌐 App ready at: http://localhost:3000
+2025-03-28 20:30:09 [INFO] 🌍 Environment: development
+2025-03-28 20:30:22 [ERROR] Unhandled Error: JWT_SECRET is not defined
+ReferenceError: JWT_SECRET is not defined
+    at login (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\authController.js:14:40)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-03-28 20:30:34 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-03-28 20:31:02 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-03-28 20:31:02 [INFO] 🌐 App ready at: http://localhost:3000
+2025-03-28 20:31:02 [INFO] 🌍 Environment: development
+2025-03-28 21:08:24 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-03-28 21:08:25 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-03-28 21:08:25 [INFO] 🌐 App ready at: http://localhost:3000
+2025-03-28 21:08:25 [INFO] 🌍 Environment: development
+2025-03-28 21:08:32 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-03-28 21:08:33 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-03-28 21:08:33 [INFO] 🌐 App ready at: http://localhost:3000
+2025-03-28 21:08:33 [INFO] 🌍 Environment: development
+2025-03-28 21:10:38 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-03-28 21:10:39 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-03-28 21:10:39 [INFO] 🌐 App ready at: http://localhost:3000
+2025-03-28 21:10:39 [INFO] 🌍 Environment: development
+2025-03-28 21:12:25 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-03-28 21:13:18 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-03-28 21:13:18 [INFO] 🌐 App ready at: http://localhost:3000
+2025-03-28 21:13:18 [INFO] 🌍 Environment: development
+2025-04-04 21:03:47 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-04 21:03:47 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-04 21:03:47 [INFO] 🌍 Environment: development
+2025-04-04 21:05:46 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-04 21:05:48 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-04 21:05:48 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-04 21:05:48 [INFO] 🌍 Environment: development
+2025-04-04 21:06:32 [ERROR] Error fetching restaurants: Table 'itelalis22b_db2.restaurant' doesn't exist
+Error: Table 'itelalis22b_db2.restaurant' doesn't exist
+    at PromiseConnection.execute (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:33:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-04 21:06:38 [ERROR] Error fetching restaurants: Table 'itelalis22b_db2.restaurant' doesn't exist
+Error: Table 'itelalis22b_db2.restaurant' doesn't exist
+    at PromiseConnection.execute (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:33:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-04 21:07:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-04 21:08:09 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-04 21:08:09 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-04 21:08:09 [INFO] 🌍 Environment: development
+2025-04-04 21:08:26 [ERROR] Error fetching restaurants: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Object.createConnectionPromise [as createConnection] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\promise.js:19:31)
+    at Object.createConnection (C:\Users\johnt\WebstormProjects\book-api2\src\config\database.js:5:18)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:32:31)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+2025-04-04 21:08:51 [ERROR] Error fetching restaurants: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Object.createConnectionPromise [as createConnection] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\promise.js:19:31)
+    at Object.createConnection (C:\Users\johnt\WebstormProjects\book-api2\src\config\database.js:5:18)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:32:31)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+2025-04-04 21:09:23 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-04 21:10:07 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-04 21:10:07 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-04 21:10:07 [INFO] 🌍 Environment: development
+2025-04-04 21:10:12 [ERROR] Error fetching restaurants: Table 'itelalis22b_db2.restaurant' doesn't exist
+Error: Table 'itelalis22b_db2.restaurant' doesn't exist
+    at PromiseConnection.execute (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:33:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-04 21:11:09 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-04 21:12:34 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-04 21:12:34 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-04 21:12:34 [INFO] 🌍 Environment: development
+2025-04-04 21:12:45 [ERROR] Error fetching restaurants: Table 'itelalis22b_db3.restaurant' doesn't exist
+Error: Table 'itelalis22b_db3.restaurant' doesn't exist
+    at PromiseConnection.execute (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:33:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-04 21:13:13 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-04 21:13:16 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-04 21:13:16 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-04 21:13:16 [INFO] 🌍 Environment: development
+2025-04-04 21:14:49 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-04 21:14:50 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-04 21:14:50 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-04 21:14:50 [INFO] 🌍 Environment: development
+2025-04-04 21:20:45 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 18:40:59 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 18:40:59 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 18:40:59 [INFO] 🌍 Environment: development
+2025-04-11 18:41:27 [ERROR] Error fetching restaurants: Table 'itelalis22b_db3.restaurants' doesn't exist
+Error: Table 'itelalis22b_db3.restaurants' doesn't exist
+    at PromiseConnection.execute (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:33:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-11 18:41:35 [ERROR] Error fetching restaurants: Table 'itelalis22b_db3.restaurants' doesn't exist
+Error: Table 'itelalis22b_db3.restaurants' doesn't exist
+    at PromiseConnection.execute (C:\Users\johnt\WebstormProjects\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getAllRestaurants (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:33:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-11 18:41:39 [ERROR] uncaughtException: restaurant_id is not defined
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+2025-04-11 18:44:44 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 18:44:44 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 18:44:44 [INFO] 🌍 Environment: development
+2025-04-11 18:44:49 [ERROR] uncaughtException: restaurant_id is not defined
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+2025-04-11 18:48:18 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 18:48:18 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 18:48:18 [INFO] 🌍 Environment: development
+2025-04-11 18:48:36 [ERROR] uncaughtException: restaurant_id is not defined
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+2025-04-11 18:49:47 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 18:49:47 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 18:49:47 [INFO] 🌍 Environment: development
+2025-04-11 18:49:52 [ERROR] uncaughtException: restaurant_id is not defined
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+ReferenceError: restaurant_id is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+2025-04-11 18:50:35 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 18:50:35 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 18:50:35 [INFO] 🌍 Environment: development
+2025-04-11 18:50:39 [ERROR] uncaughtException: restaurant_uuid is not defined
+ReferenceError: restaurant_uuid is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+ReferenceError: restaurant_uuid is not defined
+    at getRestaurantById (C:\Users\johnt\WebstormProjects\book-api2\src\controllers\restaurantController.js:48:23)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\johnt\WebstormProjects\book-api2\node_modules\express\lib\router\index.js:280:10)
+2025-04-11 18:52:23 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 18:52:23 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 18:52:23 [INFO] 🌍 Environment: development
+2025-04-11 19:20:41 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 19:20:47 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 19:20:47 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 19:20:47 [INFO] 🌍 Environment: development
+2025-04-11 19:22:55 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 19:43:06 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 19:43:06 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 19:43:06 [INFO] 🌍 Environment: development
+2025-04-11 19:43:50 [ERROR] Error fetching restaurant by ID: Unknown column 'restaurant_uuid' in 'WHERE'
+Error: Unknown column 'restaurant_uuid' in 'WHERE'
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getRestaurantById (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:54:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-11 19:49:21 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 19:49:23 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 19:49:23 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 19:49:23 [INFO] 🌍 Environment: development
+2025-04-11 19:51:08 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 19:51:09 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 19:51:09 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 19:51:09 [INFO] 🌍 Environment: development
+2025-04-11 20:05:43 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 20:41:31 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 20:41:31 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 20:41:31 [INFO] 🌍 Environment: development
+2025-04-11 21:08:32 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 21:08:35 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 21:08:35 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 21:08:35 [INFO] 🌍 Environment: development
+2025-04-11 21:10:04 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 21:10:07 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 21:10:07 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 21:10:07 [INFO] 🌍 Environment: development
+2025-04-11 21:13:09 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 21:13:11 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 21:13:11 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 21:13:11 [INFO] 🌍 Environment: development
+2025-04-11 21:14:42 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-04-11 21:14:45 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-04-11 21:14:45 [INFO] 🌐 App ready at: http://localhost:3000
+2025-04-11 21:14:45 [INFO] 🌍 Environment: development
+2025-04-11 21:16:04 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 18:57:43 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 18:57:43 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 18:57:43 [INFO] 🌍 Environment: development
+2025-05-01 19:06:14 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 19:06:17 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 19:06:17 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 19:06:17 [INFO] 🌍 Environment: development
+2025-05-01 19:08:38 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 19:08:42 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 19:08:42 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 19:08:42 [INFO] 🌍 Environment: development
+2025-05-01 19:28:09 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 19:28:11 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 19:28:11 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 19:28:11 [INFO] 🌍 Environment: development
+2025-05-01 19:38:34 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 19:38:36 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 19:38:36 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 19:38:36 [INFO] 🌍 Environment: development
+2025-05-01 19:42:46 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 19:49:58 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 19:49:58 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 19:49:58 [INFO] 🌍 Environment: development
+2025-05-01 19:51:07 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 19:51:16 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 19:51:16 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 19:51:16 [INFO] 🌍 Environment: development
+2025-05-01 19:57:02 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 19:57:04 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 19:57:04 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 19:57:04 [INFO] 🌍 Environment: development
+2025-05-01 19:58:15 [WARN] Unauthorized access: No token provided
+2025-05-01 19:58:30 [WARN] Unauthorized access: No token provided
+2025-05-01 20:06:30 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-01 20:06:33 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-01 20:06:33 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-01 20:06:33 [INFO] 🌍 Environment: development
+2025-05-01 20:39:44 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 18:48:56 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 18:48:56 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 18:48:56 [INFO] 🌍 Environment: development
+2025-05-02 18:48:59 [WARN] Unauthorized access: No token provided
+2025-05-02 19:09:22 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:09:24 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:09:24 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:09:24 [INFO] 🌍 Environment: development
+2025-05-02 19:10:09 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:22:48 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:22:48 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:22:48 [INFO] 🌍 Environment: development
+2025-05-02 19:27:37 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:27:41 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:27:41 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:27:41 [INFO] 🌍 Environment: development
+2025-05-02 19:34:05 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:34:08 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:34:08 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:34:08 [INFO] 🌍 Environment: development
+2025-05-02 19:35:24 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:35:27 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:35:27 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:35:27 [INFO] 🌍 Environment: development
+2025-05-02 19:35:37 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:35:40 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:35:40 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:35:40 [INFO] 🌍 Environment: development
+2025-05-02 19:38:49 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:38:52 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:38:52 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:38:52 [INFO] 🌍 Environment: development
+2025-05-02 19:39:35 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 19:39:38 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 19:39:38 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 19:39:38 [INFO] 🌍 Environment: development
+2025-05-02 20:07:59 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-02 20:21:57 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-02 20:21:57 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-02 20:21:57 [INFO] 🌍 Environment: development
+2025-05-02 20:24:16 [ERROR] Login error: Table 'nroda21b_db1.accounts' doesn't exist
+Error: Table 'nroda21b_db1.accounts' doesn't exist
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.getAccountByEmail (C:\General Downloads\booksexaple2\book-api2\src\models\account.model.js:53:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:148:22)
+2025-05-02 21:18:30 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-09 14:57:20 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-09 14:57:20 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-09 14:57:20 [INFO] 🌍 Environment: development
+2025-05-09 15:45:52 [ERROR] Registration error: Table 'nroda21b_db1.accounts' doesn't exist
+Error: Table 'nroda21b_db1.accounts' doesn't exist
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.getAccountByEmail (C:\General Downloads\booksexaple2\book-api2\src\models\account.model.js:53:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:66:26)
+2025-05-09 18:43:16 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-09 18:43:18 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-09 18:43:19 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-09 18:43:19 [INFO] 🌍 Environment: development
+2025-05-09 18:43:45 [ERROR] Registration error: Table 'nroda21b_db1.accounts' doesn't exist
+Error: Table 'nroda21b_db1.accounts' doesn't exist
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.getAccountByEmail (C:\General Downloads\booksexaple2\book-api2\src\models\account.model.js:53:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:66:26)
+2025-05-09 20:07:05 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-09 20:07:09 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-09 20:07:09 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-09 20:07:09 [INFO] 🌍 Environment: development
+2025-05-09 20:08:34 [ERROR] Registration error: Field 'id' doesn't have a default value
+Error: Field 'id' doesn't have a default value
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.createAccount (C:\General Downloads\booksexaple2\book-api2\src\models\account.model.js:74:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:72:9)
+2025-05-09 20:12:27 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-09 20:18:10 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-09 20:18:10 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-09 20:18:10 [INFO] 🌍 Environment: development
+2025-05-09 20:26:09 [ERROR] Registration error: Field 'id' doesn't have a default value
+Error: Field 'id' doesn't have a default value
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.createAccount (C:\General Downloads\booksexaple2\book-api2\src\models\account.model.js:74:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:72:9)
+2025-05-09 20:34:06 [INFO] [Mock Email] Sending verification email to dule@gmail.com
+2025-05-09 20:34:06 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjQzYzMyMzEtZjM1YS00YjJhLWFhMjgtNDhkYTcwODFkMjZkIiwiaWF0IjoxNzQ2ODEyMDQ2LCJleHAiOjE3NDY4OTg0NDZ9.iSa2Zl5kfpiOGagDNryMPiAJXO1DUQ6yNY01f30zZAU
+2025-05-09 20:51:26 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-09 20:51:50 [INFO] [Mock Email] Sending verification email to dule@gmail.com
+2025-05-09 20:51:50 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNmZhNzhmNWUtZWYzMy00MjBkLTkxMjktY2RkMWU1YWZiOGU5IiwiaWF0IjoxNzQ2ODEzMTEwLCJleHAiOjE3NDY4OTk1MTB9.6gXK0PvQE5K6q8ssAMhyMpNL3FLNzUnavPr8X9WEHVw
+2025-05-09 21:15:22 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-14 17:47:17 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-14 17:47:17 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-14 17:47:17 [INFO] 🌍 Environment: development
+2025-05-14 17:52:09 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-14 18:00:48 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-14 18:00:48 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-14 18:00:48 [INFO] 🌍 Environment: development
+2025-05-14 18:04:27 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-14 23:46:10 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-14 23:46:10 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-14 23:46:10 [INFO] 🌍 Environment: development
+2025-05-14 23:52:54 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-14 23:53:28 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 00:08:00 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 00:09:19 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 00:10:40 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 00:12:31 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 00:14:15 [WARN] Unauthorized access: No token provided
+2025-05-15 00:16:37 [WARN] Unauthorized access: No token provided
+2025-05-15 00:38:39 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 00:39:02 [INFO] [Mock Email] Sending verification email to aleks@gmail.com
+2025-05-15 00:39:02 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYzA4YjdlMmMtODA1Zi00ZDhmLThjNjYtMzYzZGUyM2I5ZGMzIiwiaWF0IjoxNzQ3MjU4NzQyLCJleHAiOjE3NDczNDUxNDJ9.Ia4a-Brrk6Gq54QbKofA9fg5XW_gO_mK_EKPxzgoqHQ
+2025-05-15 00:53:02 [WARN] Unauthorized access: No token provided
+2025-05-15 01:05:34 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 01:13:55 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 01:14:50 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:14:50 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:14:50 [INFO] 🌍 Environment: development
+2025-05-15 01:18:41 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 01:18:47 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:18:47 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:18:47 [INFO] 🌍 Environment: development
+2025-05-15 01:20:16 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 01:21:44 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:21:44 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:21:44 [INFO] 🌍 Environment: development
+2025-05-15 01:30:46 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 01:30:50 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:30:50 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:30:50 [INFO] 🌍 Environment: development
+2025-05-15 01:31:50 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 01:31:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:31:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:31:53 [INFO] 🌍 Environment: development
+2025-05-15 01:31:58 [ERROR] uncaughtException: validateRestaurantData is not a function
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-15 01:33:11 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:33:11 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:33:11 [INFO] 🌍 Environment: development
+2025-05-15 01:33:50 [ERROR] uncaughtException: validateRestaurantData is not a function
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-15 01:34:36 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:34:36 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:34:36 [INFO] 🌍 Environment: development
+2025-05-15 01:34:49 [ERROR] uncaughtException: validateRestaurantData is not a function
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-15 01:42:00 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:42:00 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:42:00 [INFO] 🌍 Environment: development
+2025-05-15 01:43:45 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 01:43:50 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:43:50 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:43:50 [INFO] 🌍 Environment: development
+2025-05-15 01:44:04 [ERROR] uncaughtException: validateRestaurantData is not a function
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-15 01:46:51 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:46:51 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:46:51 [INFO] 🌍 Environment: development
+2025-05-15 01:47:47 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 01:47:49 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:47:49 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:47:49 [INFO] 🌍 Environment: development
+2025-05-15 01:48:05 [ERROR] uncaughtException: validateRestaurantData is not a function
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:104:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:104:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-15 01:54:03 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:54:03 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:54:03 [INFO] 🌍 Environment: development
+2025-05-15 01:55:13 [ERROR] uncaughtException: validateRestaurantData is not a function
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-15 01:59:55 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 01:59:55 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 01:59:55 [INFO] 🌍 Environment: development
+2025-05-15 02:00:07 [ERROR] uncaughtException: validateRestaurantData is not a function
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:34)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateRestaurantData is not a function
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:34)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-15 02:01:33 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:01:33 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:01:33 [INFO] 🌍 Environment: development
+2025-05-15 02:04:06 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:04:11 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:04:11 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:04:11 [INFO] 🌍 Environment: development
+2025-05-15 02:04:37 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\booksexaple2\book-api2\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\index.js:47:12)
+2025-05-15 02:07:10 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:07:15 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:07:15 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:07:15 [INFO] 🌍 Environment: development
+2025-05-15 02:10:11 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:10:15 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:10:15 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:10:15 [INFO] 🌍 Environment: development
+2025-05-15 02:10:38 [ERROR] Error updating restaurant: Table 'nroda21b_db1.restaurant' doesn't exist
+Error: Table 'nroda21b_db1.restaurant' doesn't exist
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:114:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-15 02:12:43 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:12:47 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:12:47 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:12:47 [INFO] 🌍 Environment: development
+2025-05-15 02:12:58 [ERROR] Error updating restaurant: Table 'nroda21b_db1.restaurant' doesn't exist
+Error: Table 'nroda21b_db1.restaurant' doesn't exist
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:114:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-15 02:14:35 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:14:39 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:14:39 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:14:39 [INFO] 🌍 Environment: development
+2025-05-15 02:14:49 [ERROR] uncaughtException: restaurant is not defined
+ReferenceError: restaurant is not defined
+    at validateRestaurantData (C:\General Downloads\booksexaple2\book-api2\src\utils\RestaurantValidation.js:24:5)
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:34)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+ReferenceError: restaurant is not defined
+    at validateRestaurantData (C:\General Downloads\booksexaple2\book-api2\src\utils\RestaurantValidation.js:24:5)
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:105:34)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\booksexaple2\book-api2\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\booksexaple2\book-api2\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\booksexaple2\book-api2\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\booksexaple2\book-api2\node_modules\jsonwebtoken\verify.js:97:14)
+2025-05-15 02:15:18 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:15:18 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:15:18 [INFO] 🌍 Environment: development
+2025-05-15 02:15:24 [ERROR] Error updating restaurant: Table 'nroda21b_db1.restaurant' doesn't exist
+Error: Table 'nroda21b_db1.restaurant' doesn't exist
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:114:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-15 02:16:25 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:16:30 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:16:30 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:16:30 [INFO] 🌍 Environment: development
+2025-05-15 02:16:36 [ERROR] Error updating restaurants: Incorrect datetime value: '2025-05-14T23:16:35.915Z' for column `nroda21b_db1`.`restaurants`.`created_at` at row 1
+Error: Incorrect datetime value: '2025-05-14T23:16:35.915Z' for column `nroda21b_db1`.`restaurants`.`created_at` at row 1
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:121:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-15 02:25:15 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:25:19 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:25:19 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:25:19 [INFO] 🌍 Environment: development
+2025-05-15 02:26:42 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:26:45 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:26:45 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:26:45 [INFO] 🌍 Environment: development
+2025-05-15 02:27:58 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:28:10 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:28:10 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:28:10 [INFO] 🌍 Environment: development
+2025-05-15 02:44:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:44:59 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:44:59 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:44:59 [INFO] 🌍 Environment: development
+2025-05-15 02:48:53 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:48:59 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:48:59 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:48:59 [INFO] 🌍 Environment: development
+2025-05-15 02:49:49 [ERROR] Error creating restaurants: Incorrect datetime value: '2025-05-14T23:49:49.048Z' for column `nroda21b_db1`.`restaurants`.`created_at` at row 1
+Error: Incorrect datetime value: '2025-05-14T23:49:49.048Z' for column `nroda21b_db1`.`restaurants`.`created_at` at row 1
+    at PromiseConnection.execute (C:\General Downloads\booksexaple2\book-api2\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createRestaurant (C:\General Downloads\booksexaple2\book-api2\src\controllers\restaurantController.js:82:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-15 02:50:53 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-15 02:50:58 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-15 02:50:58 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-15 02:50:58 [INFO] 🌍 Environment: development
+2025-05-15 02:52:11 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 15:22:37 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 15:22:37 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 15:22:37 [INFO] 🌍 Environment: development
+2025-05-16 15:29:35 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 15:29:44 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 15:29:44 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 15:29:44 [INFO] 🌍 Environment: development
+2025-05-16 15:36:47 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-16 15:48:26 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-16 15:57:02 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 15:57:09 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 15:57:09 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 15:57:09 [INFO] 🌍 Environment: development
+2025-05-16 15:58:50 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 15:58:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 15:58:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 15:58:53 [INFO] 🌍 Environment: development
+2025-05-16 16:04:59 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 16:05:04 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 16:05:04 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 16:05:04 [INFO] 🌍 Environment: development
+2025-05-16 16:05:13 [ERROR] Error fetching reservations by restaurant_id: Unknown column 'res.id' in 'ON'
+Error: Unknown column 'res.id' in 'ON'
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at getReservationsByRestaurantId (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:197:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 16:07:17 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 16:07:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 16:07:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 16:07:53 [INFO] 🌍 Environment: development
+2025-05-16 16:22:31 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 16:22:35 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 16:22:35 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 16:22:35 [INFO] 🌍 Environment: development
+2025-05-16 16:22:38 [ERROR] uncaughtException: validateReservationData is not a function
+TypeError: validateReservationData is not a function
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:104:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateReservationData is not a function
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:104:24)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-16 16:27:28 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 16:27:28 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 16:27:28 [INFO] 🌍 Environment: development
+2025-05-16 16:27:33 [ERROR] uncaughtException: validateReservationData is not a function
+TypeError: validateReservationData is not a function
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:104:35)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:101:10)
+TypeError: validateReservationData is not a function
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:104:35)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\validateUUID.middleware.js:14:5)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at C:\General Downloads\ForKosmidis\book-api2updated\src\middlewares\auth.middleware.js:37:9
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-16 16:29:14 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 16:29:14 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 16:29:14 [INFO] 🌍 Environment: development
+2025-05-16 16:34:48 [ERROR] Error updating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:120:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 16:50:49 [WARN] Unauthorized: Token expired
+2025-05-16 16:50:59 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-16 16:51:37 [ERROR] Error updating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:120:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 16:53:56 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-16 16:55:36 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 16:55:39 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 16:55:39 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 16:55:39 [INFO] 🌍 Environment: development
+2025-05-16 16:56:10 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 16:56:13 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 16:56:13 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 16:56:13 [INFO] 🌍 Environment: development
+2025-05-16 16:59:05 [ERROR] Error updating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:120:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:02:45 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 17:05:31 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 17:05:31 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 17:05:31 [INFO] 🌍 Environment: development
+2025-05-16 17:06:04 [ERROR] Error updating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:120:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:08:08 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 17:08:17 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 17:08:17 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 17:08:17 [INFO] 🌍 Environment: development
+2025-05-16 17:08:49 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 17:08:50 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 17:08:50 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 17:08:50 [INFO] 🌍 Environment: development
+2025-05-16 17:09:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 17:09:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 17:09:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 17:09:53 [INFO] 🌍 Environment: development
+2025-05-16 17:10:08 [ERROR] Error updating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:126:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:11:06 [ERROR] Error updating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:126:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:15:27 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 17:15:30 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 17:15:30 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 17:15:30 [INFO] 🌍 Environment: development
+2025-05-16 17:15:42 [ERROR] Error updating reservation: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:126:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:16:40 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 17:16:42 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 17:16:42 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 17:16:42 [INFO] 🌍 Environment: development
+2025-05-16 17:16:54 [ERROR] Error updating reservation: Unknown column 'updated_at' in 'SET'
+Error: Unknown column 'updated_at' in 'SET'
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at updateReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:126:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:19:16 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 17:19:20 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 17:19:20 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 17:19:20 [INFO] 🌍 Environment: development
+2025-05-16 17:35:55 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:50:45 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:51:10 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:51:43 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 17:52:23 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 18:03:34 [WARN] Unauthorized: Token expired
+2025-05-16 18:03:41 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-16 18:04:35 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 19:00:59 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-16 19:07:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 19:07:54 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 19:07:54 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 19:07:54 [INFO] 🌍 Environment: development
+2025-05-16 19:29:28 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 19:29:30 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 19:29:30 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 19:29:30 [INFO] 🌍 Environment: development
+2025-05-16 19:33:00 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 19:33:01 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 19:33:01 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 19:33:01 [INFO] 🌍 Environment: development
+2025-05-16 19:43:51 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 20:00:48 [ERROR] Error creating reservation: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+Error: Incorrect integer value: 'd1609ef8-16f4-11f0-978b-76eaf385044d' for column `nroda21b_db1`.`reservations2`.`restaurant_id` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 20:08:48 [WARN] Unauthorized: Token expired
+2025-05-16 20:08:58 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-16 20:11:07 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 20:11:11 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 20:11:11 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 20:11:11 [INFO] 🌍 Environment: development
+2025-05-16 20:11:15 [ERROR] Error creating reservation: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:87:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 20:12:03 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 20:12:22 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 20:12:22 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 20:12:22 [INFO] 🌍 Environment: development
+2025-05-16 20:12:41 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 20:13:04 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 20:13:04 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 20:13:04 [INFO] 🌍 Environment: development
+2025-05-16 20:13:33 [ERROR] Error creating reservation: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:88:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 20:13:58 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 20:14:00 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 20:14:00 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 20:14:00 [INFO] 🌍 Environment: development
+2025-05-16 20:14:24 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 20:14:25 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 20:14:25 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 20:14:25 [INFO] 🌍 Environment: development
+2025-05-16 20:15:08 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 20:15:11 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 20:15:11 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 20:15:11 [INFO] 🌍 Environment: development
+2025-05-16 20:22:53 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 20:22:56 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-16 20:22:56 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-16 20:22:56 [INFO] 🌍 Environment: development
+2025-05-16 20:23:02 [ERROR] Error creating reservation: Incorrect datetime value: '2025-05-16T17:23:01.961Z' for column `nroda21b_db1`.`reservations2`.`created_at` at row 1
+Error: Incorrect datetime value: '2025-05-16T17:23:01.961Z' for column `nroda21b_db1`.`reservations2`.`created_at` at row 1
+    at PromiseConnection.execute (C:\General Downloads\ForKosmidis\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at createReservation (C:\General Downloads\ForKosmidis\book-api2updated\src\controllers\reservationController.js:88:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16 20:54:24 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-27 22:19:59 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-27 22:19:59 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-27 22:19:59 [INFO] 🌍 Environment: development
+2025-05-27 22:29:28 [INFO] [Mock Email] Sending verification email to gm"gm.com
+2025-05-27 22:29:28 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMDYyMThlZGUtYWQ0MS00ZjY0LWEwNGEtN2JmOTU2OGQxZGRmIiwiaWF0IjoxNzQ4Mzc0MTY4LCJleHAiOjE3NDg0NjA1Njh9.3DJtc9zlzDYSMHSCLMulmH3dy7W2t72UQVdIgRyruvQ
+2025-05-27 22:51:53 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-27 22:51:56 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-27 22:51:56 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-27 22:51:56 [INFO] 🌍 Environment: development
+2025-05-27 22:54:25 [ERROR] Registration error: Field 'id' doesn't have a default value
+Error: Field 'id' doesn't have a default value
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.createAccount (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\account.model.js:74:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:72:9)
+2025-05-27 22:59:05 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-27 22:59:05 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-27 22:59:05 [INFO] 🌍 Environment: development
+2025-05-27 23:05:51 [ERROR] Registration error: Field 'id' doesn't have a default value
+Error: Field 'id' doesn't have a default value
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.createAccount (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\account.model.js:74:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:72:9)
+2025-05-27 23:06:38 [ERROR] Registration error: Field 'id' doesn't have a default value
+Error: Field 'id' doesn't have a default value
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.createAccount (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\account.model.js:74:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:72:9)
+2025-05-27 23:06:41 [ERROR] Registration error: Field 'id' doesn't have a default value
+Error: Field 'id' doesn't have a default value
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.createAccount (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\account.model.js:74:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:72:9)
+2025-05-27 23:13:09 [INFO] [Mock Email] Sending verification email to gm@gm.com
+2025-05-27 23:13:09 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZTMwMGQzMGMtM2MzZS00YzkwLThjNDgtN2FlMGZiOTM3MGY3IiwiaWF0IjoxNzQ4Mzc2Nzg5LCJleHAiOjE3NDg0NjMxODl9.X8ymNl5OFKW6c7bHkdUp4bzaBs606FzZ7SUcLyHxXUg
+2025-05-28 01:38:54 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 18:53:19 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 18:53:19 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 18:53:19 [INFO] 🌍 Environment: development
+2025-05-28 19:34:58 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 19:34:59 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 19:34:59 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 19:34:59 [INFO] 🌍 Environment: development
+2025-05-28 21:11:32 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:11:33 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:11:33 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:11:33 [INFO] 🌍 Environment: development
+2025-05-28 21:11:47 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:11:49 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:11:49 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:11:49 [INFO] 🌍 Environment: development
+2025-05-28 21:14:10 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:14:11 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:14:11 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:14:11 [INFO] 🌍 Environment: development
+2025-05-28 21:14:22 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:14:23 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:14:23 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:14:23 [INFO] 🌍 Environment: development
+2025-05-28 21:20:23 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:20:24 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:20:24 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:20:24 [INFO] 🌍 Environment: development
+2025-05-28 21:20:29 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:20:30 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:20:30 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:20:30 [INFO] 🌍 Environment: development
+2025-05-28 21:21:17 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:21:18 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:21:18 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:21:18 [INFO] 🌍 Environment: development
+2025-05-28 21:21:55 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:21:56 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:21:56 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:21:56 [INFO] 🌍 Environment: development
+2025-05-28 21:23:27 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:23:28 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:23:28 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:23:28 [INFO] 🌍 Environment: development
+2025-05-28 21:23:52 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:23:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:23:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:23:53 [INFO] 🌍 Environment: development
+2025-05-28 21:24:50 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:24:51 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:24:51 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:24:51 [INFO] 🌍 Environment: development
+2025-05-28 21:28:28 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:28:29 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:28:29 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:28:29 [INFO] 🌍 Environment: development
+2025-05-28 21:45:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:45:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:45:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:45:53 [INFO] 🌍 Environment: development
+2025-05-28 21:49:40 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:49:42 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:49:42 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:49:42 [INFO] 🌍 Environment: development
+2025-05-28 21:49:49 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 21:49:50 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 21:49:50 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 21:49:50 [INFO] 🌍 Environment: development
+2025-05-28 21:50:17 [INFO] [Mock Email] Sending verification email to newuser@example.com
+2025-05-28 21:50:17 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMDFiNzg5YWUtYTg3My00MWNlLWJhODktNjlkYTkyNTFkNDQyIiwiaWF0IjoxNzQ4NDU4MjE3LCJleHAiOjE3NDg1NDQ2MTd9.55dGfm9IcVmk5k2ixQ0-dTev4Sv4eaJiswUigECOtHE
+2025-05-28 22:03:38 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:03:39 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:03:39 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:03:39 [INFO] 🌍 Environment: development
+2025-05-28 22:04:20 [WARN] Unauthorized access: No token provided
+2025-05-28 22:07:50 [WARN] Unauthorized access: No token provided
+2025-05-28 22:08:12 [ERROR] Refresh token error: jwt malformed
+JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\jsonwebtoken\verify.js:70:17)
+    at refreshToken (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:181:29)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+2025-05-28 22:08:26 [WARN] Unauthorized access: No token provided
+2025-05-28 22:09:26 [WARN] Unauthorized access: No token provided
+2025-05-28 22:09:58 [ERROR] Create reservation error:
+Error
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at getConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:6:35)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:42:28)
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:32)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+2025-05-28 22:10:04 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:10:05 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:10:05 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:10:05 [INFO] 🌍 Environment: development
+2025-05-28 22:10:34 [ERROR] Create reservation error:
+Error
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at getConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:6:35)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:42:28)
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:32)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+2025-05-28 22:10:41 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:10:42 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:10:42 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:10:42 [INFO] 🌍 Environment: development
+2025-05-28 22:10:57 [WARN] Unauthorized access: No token provided
+2025-05-28 22:11:56 [WARN] Unauthorized access: No token provided
+2025-05-28 22:13:28 [ERROR] Create reservation error:
+Error
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at getConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:6:35)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:42:28)
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:32)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+2025-05-28 22:15:11 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:15:12 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:15:12 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:15:12 [INFO] 🌍 Environment: development
+2025-05-28 22:16:40 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:16:41 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:16:41 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:16:41 [INFO] 🌍 Environment: development
+2025-05-28 22:17:17 [ERROR] Create reservation error:
+Error
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at getConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:6:35)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:42:28)
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:32)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+2025-05-28 22:28:49 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:28:50 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:28:50 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:28:50 [INFO] 🌍 Environment: development
+2025-05-28 22:29:56 [ERROR] Create reservation error: Cannot read properties of undefined (reading 'isServer')
+TypeError: Cannot read properties of undefined (reading 'isServer')
+    at new ConnectionConfig (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\connection_config.js:95:29)
+    at createConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\create_connection.js:7:35)
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:18:26)
+    at getConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:9:18)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:40:28)
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:32)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+2025-05-28 22:32:52 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:32:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:32:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:32:53 [INFO] 🌍 Environment: development
+2025-05-28 22:33:38 [ERROR] Create reservation error: Cannot read properties of undefined (reading 'isServer')
+TypeError: Cannot read properties of undefined (reading 'isServer')
+    at new ConnectionConfig (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\connection_config.js:95:29)
+    at createConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\create_connection.js:7:35)
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:18:26)
+    at getConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:9:18)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:40:28)
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:32)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+2025-05-28 22:37:26 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:37:27 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:37:27 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:37:27 [INFO] 🌍 Environment: development
+2025-05-28 22:38:07 [ERROR] Create reservation error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:9)
+2025-05-28 22:44:28 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:44:29 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:44:29 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:44:29 [INFO] 🌍 Environment: development
+2025-05-28 22:45:34 [ERROR] Create reservation error: Incorrect integer value: 'e300d30c-3c3e-4c90-8c48-7ae0fb9370f7' for column `gmariakakis22b_db2`.`reservations`.`user_id` at row 1
+Error: Incorrect integer value: 'e300d30c-3c3e-4c90-8c48-7ae0fb9370f7' for column `gmariakakis22b_db2`.`reservations`.`user_id` at row 1
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:27:9)
+2025-05-28 22:52:56 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 22:52:58 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 22:52:58 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 22:52:58 [INFO] 🌍 Environment: development
+2025-05-28 22:53:37 [ERROR] Create reservation error: Incorrect datetime value: '2025-05-28T19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+Error: Incorrect datetime value: '2025-05-28T19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:29:9)
+2025-05-28 22:54:10 [ERROR] Create reservation error: Incorrect datetime value: '2025-06-28T19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+Error: Incorrect datetime value: '2025-06-28T19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:29:9)
+2025-05-28 22:56:51 [ERROR] Create reservation error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+Error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:29:9)
+2025-05-28 22:57:56 [ERROR] Create reservation error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+Error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:29:9)
+2025-05-28 22:58:00 [ERROR] Create reservation error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+Error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:29:9)
+2025-05-28 22:58:02 [ERROR] Create reservation error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+Error: Incorrect datetime value: '2025-06-28 19:53:31.516Z' for column `gmariakakis22b_db2`.`reservations`.`reservation_datetime` at row 1
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:29:9)
+2025-05-28 23:04:52 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 23:04:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 23:04:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 23:04:53 [INFO] 🌍 Environment: development
+2025-05-28 23:05:51 [ERROR] Create reservation error: Cannot add or update a child row: a foreign key constraint fails (`gmariakakis22b_db2`.`reservations`, CONSTRAINT `reservations_ibfk_2` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`restaurant_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error: Cannot add or update a child row: a foreign key constraint fails (`gmariakakis22b_db2`.`reservations`, CONSTRAINT `reservations_ibfk_2` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`restaurant_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:43:9)
+2025-05-28 23:06:02 [ERROR] Create reservation error: Cannot add or update a child row: a foreign key constraint fails (`gmariakakis22b_db2`.`reservations`, CONSTRAINT `reservations_ibfk_2` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`restaurant_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error: Cannot add or update a child row: a foreign key constraint fails (`gmariakakis22b_db2`.`reservations`, CONSTRAINT `reservations_ibfk_2` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`restaurant_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:43:9)
+2025-05-28 23:06:13 [ERROR] Create reservation error: Cannot add or update a child row: a foreign key constraint fails (`gmariakakis22b_db2`.`reservations`, CONSTRAINT `reservations_ibfk_2` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`restaurant_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error: Cannot add or update a child row: a foreign key constraint fails (`gmariakakis22b_db2`.`reservations`, CONSTRAINT `reservations_ibfk_2` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`restaurant_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at Object.create (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:41:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:43:9)
+2025-05-28 23:36:32 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:199:31)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-28 23:54:13 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-28 23:54:14 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-28 23:54:14 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-28 23:54:14 [INFO] 🌍 Environment: development
+2025-05-29 00:08:57 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 00:08:59 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 00:08:59 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 00:08:59 [INFO] 🌍 Environment: development
+2025-05-29 00:09:04 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:09:10 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:10:52 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:10:52 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:14:14 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 00:14:15 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 00:14:15 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 00:14:15 [INFO] 🌍 Environment: development
+2025-05-29 00:14:21 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:17:48 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 00:17:49 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 00:17:49 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 00:17:49 [INFO] 🌍 Environment: development
+2025-05-29 00:17:56 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:18:10 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:200:31)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-29 00:18:31 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:19:03 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:200:31)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-29 00:24:33 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:24:49 [ERROR] Logout error: Cannot read properties of undefined (reading 'uuid')
+TypeError: Cannot read properties of undefined (reading 'uuid')
+    at logout (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:200:31)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:47:12)
+2025-05-29 00:29:05 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 00:29:06 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 00:29:06 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 00:29:06 [INFO] 🌍 Environment: development
+2025-05-29 00:29:25 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 00:30:12 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:09:49 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 01:09:51 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 01:09:51 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 01:09:51 [INFO] 🌍 Environment: development
+2025-05-29 01:10:00 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:14:02 [ERROR] Login error: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at Object.createConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\config\database.js:7:18)
+    at Object.getAccountByEmail (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\account.model.js:65:31)
+    at login (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:149:41)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+2025-05-29 01:14:36 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 01:14:37 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 01:14:37 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 01:14:37 [INFO] 🌍 Environment: development
+2025-05-29 01:14:55 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:28:00 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 01:28:01 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 01:28:01 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 01:28:01 [INFO] 🌍 Environment: development
+2025-05-29 01:29:05 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 01:29:06 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 01:29:06 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 01:29:06 [INFO] 🌍 Environment: development
+2025-05-29 01:29:16 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:29:59 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:33:11 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:33:44 [INFO] [Mock Email] Sending verification email to ga@ga.com
+2025-05-29 01:33:44 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDYyZDQwZWQtODE3ZS00YzY1LWJlZjktODM2YjllZDZhMzk3IiwiaWF0IjoxNzQ4NDcxNjI0LCJleHAiOjE3NDg1NTgwMjR9.zYp2Q9e7eZu7vQmKnhJTpfiMV6BH4Anx8Tfg6NvTqHw
+2025-05-29 01:34:42 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:34:45 [ERROR] Get reservations error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at Connection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\base\connection.js:652:22)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromiseConnection.execute (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:22)
+2025-05-29 01:45:09 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 01:45:10 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 01:45:10 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 01:45:10 [INFO] 🌍 Environment: development
+2025-05-29 01:48:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 01:48:52 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 01:48:52 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 01:48:52 [INFO] 🌍 Environment: development
+2025-05-29 01:52:18 [ERROR] Get reservations error: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at createConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\config\database.js:7:18)
+    at getConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:9:12)
+    at Object.getByUser (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\reservation.model.js:15:28)
+    at getMyReservations (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:11:45)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+2025-05-29 02:48:23 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 02:48:24 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 02:48:24 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 02:48:24 [INFO] 🌍 Environment: development
+2025-05-29 02:49:23 [WARN] Unauthorized: Token expired
+2025-05-29 02:49:29 [WARN] Unauthorized: Token expired
+2025-05-29 04:02:55 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 17:08:57 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 17:08:57 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 17:08:57 [INFO] 🌍 Environment: development
+2025-05-29 17:19:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 17:19:53 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 17:19:53 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 17:19:53 [INFO] 🌍 Environment: development
+2025-05-29 17:47:03 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...

@@ -1,0 +1,15 @@
+import books.rest
+import error-handling.rest
+import pagination.rest
+
+### Auth requests
+run auth.rest
+
+### Books requests
+run books.rest
+
+### Error handling requests
+run error-handling.rest
+
+### Pagination requests
+run pagination.rest

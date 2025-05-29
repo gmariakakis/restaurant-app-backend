@@ -1,0 +1,11 @@
+### Login - Authenticate and propagate the token globally
+POST {{BASE_URL}}/login
+Content-Type: {{contentType}}
+
+{
+  "username": "testuser"
+}
+
+> {%
+    client.global.set("token", response.body.accessToken);
+%}

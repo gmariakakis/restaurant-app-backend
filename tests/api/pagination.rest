@@ -1,0 +1,19 @@
+### Fetch first 3 books
+GET {{BASE_URL}}/books?limit=3
+Accept: {{Accept}}
+
+> {%
+    client.test("Fetch first 3 => returns 200", function() {
+        client.assert(response.status === 200, "Expected 200 but got " + response.status);
+    });
+%}
+
+### Skip first 3, fetch next 3
+GET {{BASE_URL}}/books?limit=3&offset=3
+Accept: {{Accept}}
+
+> {%
+    client.test("Skip 3 => returns 200", function() {
+        client.assert(response.status === 200, "Expected 200 but got " + response.status);
+    });
+%}

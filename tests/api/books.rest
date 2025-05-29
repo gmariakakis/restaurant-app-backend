@@ -1,0 +1,68 @@
+### Get all books
+GET {{BASE_URL}}/books
+Accept: {{Accept}}
+
+> {%
+    client.test("Get all books returns 200", function() {
+        client.assert(response.status === 200, "Expected 200 but got " + response.status);
+    });
+%}
+
+### createBook - Create a new book
+POST {{BASE_URL}}/books
+Content-Type: {{contentType}}
+Authorization: Bearer {{token}}
+
+{
+  "title": "Brave New World",
+  "author": "Aldous Huxley",
+  "published_year": 1932,
+  "genre": "Dystopian"
+}
+
+> {%
+    client.test("Create a new book returns 201", function() {
+        client.assert(response.status === 201, "Expected 201 but got " + response.status);
+    });
+
+    // Set uui as global variable
+    client.global.set("bookId", response.body.uuid)
+%}
+
+### Get book by ID
+GET {{BASE_URL}}/books/{{bookId}}
+Accept: {{Accept}}
+
+> {%
+    client.test("Get book by ID returns 200", function() {
+        client.assert(response.status === 200, "Expected 200 but got " + response.status);
+    });
+%}
+
+### Update book
+PUT {{BASE_URL}}/books/{{bookId}}
+Content-Type: {{contentType}}
+Authorization: Bearer {{token}}
+
+{
+  "title": "Brave New World",
+  "author": "Aldous Huxley",
+  "published_year": 1932,
+  "genre": "Science Fiction"
+}
+
+> {%
+    client.test("Update book returns 200", function() {
+        client.assert(response.status === 200, "Expected 200 but got " + response.status);
+    });
+%}
+
+### Delete book
+DELETE {{BASE_URL}}/books/{{bookId}}
+Authorization: Bearer {{token}}
+
+> {%
+    client.test("Delete book returns 204", function() {
+        client.assert(response.status === 204, "Expected 204 but got " + response.status);
+    });
+%}
