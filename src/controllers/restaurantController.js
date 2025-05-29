@@ -4,30 +4,33 @@ const { validateRestaurantData, validateUuid } = require('../utils/RestaurantVal
 const logger = require('../utils/logger');
 
 const getAllRestaurants = async (req, res) => {
-    let query = 'SELECT * FROM restaurants WHERE 1=1';
+    let   query  = 'SELECT * FROM restaurants WHERE 1=1';
     const params = [];
     const { search, limit, offset } = req.query;
+
+    /* ---- ΕΛΛΗΝΙΚΟ, case-insensitive search ------------------------- */
     if (search) {
-        query += ' AND (name LIKE ? OR region LIKE ?)';
+        query += `
+      AND (
+           LOWER(name   ) COLLATE utf8mb4_unicode_ci LIKE LOWER(?) COLLATE utf8mb4_unicode_ci
+        OR LOWER(region ) COLLATE utf8mb4_unicode_ci LIKE LOWER(?) COLLATE utf8mb4_unicode_ci
+      )`;
         params.push(`%${search}%`, `%${search}%`);
     }
-    const parsedLimit = limit && /^\d+$/.test(limit) ? parseInt(limit, 10) : null;
-    const parsedOffset = offset && /^\d+$/.test(offset) ? parseInt(offset, 10) : null;
-    if (parsedLimit !== null) {
-        query += ' LIMIT ?';
-        params.push(parsedLimit);
-    }
-    if (parsedOffset !== null && parsedLimit !== null) {
-        query += ' OFFSET ?';
-        params.push(parsedOffset);
-    }
+
+    /* προαιρετικά limit / offset */
+    const l = limit  && /^\d+$/.test(limit)  ? parseInt(limit, 10)  : null;
+    const o = offset && /^\d+$/.test(offset) ? parseInt(offset, 10) : null;
+    if (l !== null) { query += ' LIMIT ?';  params.push(l); }
+    if (o !== null && l !== null) { query += ' OFFSET ?'; params.push(o); }
+
     try {
-        const conn = await db.createConnection();
-        const [restaurants] = await conn.execute(query, params);
+        const conn      = await db.createConnection();
+        const [rows]    = await conn.execute(query, params);
         await conn.end();
-        return res.status(200).json(restaurants);
-    } catch (error) {
-        logger.error('Error fetching restaurants:', error);
+        return res.status(200).json(rows);
+    } catch (err) {
+        logger.error('Error fetching restaurants:', err);
         return res.status(500).json({ message: 'Server error.' });
     }
 };

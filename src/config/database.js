@@ -9,7 +9,8 @@ const createConnection = async () => {
         port: config.db.port,
         user: config.db.user,
         password: config.db.password,
-        database: config.db.database
+        database: config.db.database,
+        charset:  'utf8mb4'
     });
 };
 

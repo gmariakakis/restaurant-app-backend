@@ -2124,3 +2124,18 @@ Error: connect ETIMEDOUT
 2025-05-30 01:30:08 [INFO] 🌍 Environment: development
 2025-05-30 01:34:31 [INFO] 
 🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:38:51 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:38:51 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:38:51 [INFO] 🌍 Environment: development
+2025-05-30 01:45:27 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:45:28 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:45:28 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:45:28 [INFO] 🌍 Environment: development
+2025-05-30 01:48:28 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:48:29 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:48:29 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:48:29 [INFO] 🌍 Environment: development
+2025-05-30 02:06:13 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
