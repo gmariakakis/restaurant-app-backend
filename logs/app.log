@@ -2020,3 +2020,107 @@ Error: connect ETIMEDOUT
 2025-05-29 23:06:05 [INFO] 🌍 Environment: development
 2025-05-29 23:23:10 [INFO] 
 🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 23:24:55 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 23:24:55 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 23:24:55 [INFO] 🌍 Environment: development
+2025-05-29 23:33:45 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 23:33:46 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 23:33:46 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 23:33:46 [INFO] 🌍 Environment: development
+2025-05-30 01:01:39 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:01:41 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:01:41 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:01:41 [INFO] 🌍 Environment: development
+2025-05-30 01:02:38 [ERROR] uncaughtException: reservation_datetime.toISOString is not a function
+TypeError: reservation_datetime.toISOString is not a function
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:32:10)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\middlewares\auth.middleware.js:43:9
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\jsonwebtoken\verify.js:261:12
+TypeError: reservation_datetime.toISOString is not a function
+    at createReservation (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\reservationController.js:32:10)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\middlewares\auth.middleware.js:43:9
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\jsonwebtoken\verify.js:261:12
+2025-05-30 01:06:07 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:06:07 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:06:07 [INFO] 🌍 Environment: development
+2025-05-30 01:06:13 [WARN] Unauthorized: Token expired
+2025-05-30 01:06:18 [WARN] Unauthorized: Token expired
+2025-05-30 01:07:51 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:07:52 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:07:52 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:07:52 [INFO] 🌍 Environment: development
+2025-05-30 01:12:41 [ERROR] Error fetching by ID: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at Object.createConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\config\database.js:7:18)
+    at getRestaurantById (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\restaurantController.js:41:31)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\middlewares\validateUUID.middleware.js:17:5)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+2025-05-30 01:13:01 [ERROR] Error fetching by ID: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at Object.createConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\config\database.js:7:18)
+    at getRestaurantById (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\restaurantController.js:41:31)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at validateUUID (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\middlewares\validateUUID.middleware.js:17:5)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+2025-05-30 01:13:07 [ERROR] Logout error: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Object.createConnectionPromise [as createConnection] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\mysql2\promise.js:19:31)
+    at Object.createConnection (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\config\database.js:7:18)
+    at Object.incrementTokenVersion (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\models\account.model.js:155:31)
+    at logout (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\controllers\authController.js:201:28)
+    at Layer.handle [as handle_request] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\src\middlewares\auth.middleware.js:43:9
+    at C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\gmari\Downloads\book-api2updated2 1\book-api2updated\node_modules\jsonwebtoken\verify.js:101:10)
+2025-05-30 01:13:23 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:13:25 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:13:25 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:13:25 [INFO] 🌍 Environment: development
+2025-05-30 01:13:29 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:13:57 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:13:57 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:13:57 [INFO] 🌍 Environment: development
+2025-05-30 01:13:58 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:14:07 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:14:07 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:14:07 [INFO] 🌍 Environment: development
+2025-05-30 01:30:06 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 01:30:08 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 01:30:08 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 01:30:08 [INFO] 🌍 Environment: development
+2025-05-30 01:34:31 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...

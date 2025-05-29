@@ -1,14 +1,18 @@
 // src/controllers/reservationController.js
-const { v4: uuidv4 }         = require('uuid');
-const ReservationModel       = require('../models/reservation.model');
-const { validateReservationData } = require('../utils/ReservationValidation');
-const logger                 = require('../utils/logger');
-const AccountModel           = require('../models/account.model');
+const { v4: uuidv4 }   = require('uuid');
+const ReservationModel = require('../models/reservation.model');
+const AccountModel     = require('../models/account.model');
+const {
+    validateReservationData
+} = require('../utils/ReservationValidation');
+const logger = require('../utils/logger');
 
-/** GET /api/reservations/me */
+/* ------------------------------------------------------------------ */
+/* GET /api/reservations/me                                           */
+/* ------------------------------------------------------------------ */
 const getMyReservations = async (req, res) => {
     try {
-        const rows = await ReservationModel.getByUser(req.user.id);{ console.log('>>> current user', req.user); }
+        const rows = await ReservationModel.getByUser(req.user.id);
         return res.status(200).json(rows);
     } catch (err) {
         logger.error('Get reservations error:', err);
@@ -16,7 +20,9 @@ const getMyReservations = async (req, res) => {
     }
 };
 
-/** POST /api/reservations */
+/* ------------------------------------------------------------------ */
+/* POST /api/reservations                                             */
+/* ------------------------------------------------------------------ */
 const createReservation = async (req, res) => {
     const check = validateReservationData(req.body);
     if (!check.valid) {
@@ -26,15 +32,13 @@ const createReservation = async (req, res) => {
     let { restaurant_id, reservation_datetime, guests } = req.body;
     const reservation_uuid = uuidv4();
 
-    // format ISO → MySQL DATETIME
-    const dt = new Date(reservation_datetime);
-    reservation_datetime = dt
-        .toISOString()    // "2025-06-28T19:53:31.516Z"
-        .slice(0, 19)     // "2025-06-28T19:53:31"
-        .replace('T', ' ');
+    /* -- κρατάμε την τοπική τιμή που ήρθε από το frontend -- */
+    reservation_datetime = reservation_datetime
+        .slice(0, 19)      // "YYYY-MM-DDTHH:MM:SS"
+        .replace('T', ' '); // -> "YYYY-MM-DD HH:MM:SS"
 
     try {
-        // load numeric user id from uuid
+        /* numeric user_id από uuid του token */
         const userRecord = await AccountModel.getByUuid(req.user.uuid);
         if (!userRecord) {
             return res.status(404).json({ message: 'User not found' });
@@ -42,11 +46,11 @@ const createReservation = async (req, res) => {
 
         await ReservationModel.create({
             reservation_uuid,
-            user_id:               userRecord.id,
+            user_id: userRecord.id,
             restaurant_id,
             reservation_datetime,
             guests,
-            status:               'confirmed'
+            status: 'confirmed'
         });
 
         return res.status(201).json({
@@ -54,7 +58,7 @@ const createReservation = async (req, res) => {
             restaurant_id,
             reservation_datetime,
             guests,
-            status:             'confirmed'
+            status: 'confirmed'
         });
     } catch (err) {
         logger.error('Create reservation error:', err);
@@ -62,10 +66,17 @@ const createReservation = async (req, res) => {
     }
 };
 
-/** PUT /api/reservations/:uuid */
+/* ------------------------------------------------------------------ */
+/* PUT /api/reservations/:uuid                                        */
+/* ------------------------------------------------------------------ */
 const updateReservation = async (req, res) => {
-    const { uuid }               = req.params;
-    const { reservation_datetime, guests } = req.body;
+    const { uuid } = req.params;
+    let { reservation_datetime, guests } = req.body;
+
+    /* ίδια μετατροπή: τοπική ώρα -> "YYYY-MM-DD HH:MM:SS" */
+    reservation_datetime = reservation_datetime
+        .slice(0, 19)
+        .replace('T', ' ');
 
     try {
         const existing = await ReservationModel.getByUuid(uuid);
@@ -84,7 +95,9 @@ const updateReservation = async (req, res) => {
     }
 };
 
-/** DELETE /api/reservations/:uuid */
+/* ------------------------------------------------------------------ */
+/* DELETE /api/reservations/:uuid                                     */
+/* ------------------------------------------------------------------ */
 const deleteReservation = async (req, res) => {
     const { uuid } = req.params;
     try {
