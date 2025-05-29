@@ -1993,3 +1993,30 @@ Error: connect ETIMEDOUT
 2025-05-29 17:19:53 [INFO] 🌍 Environment: development
 2025-05-29 17:47:03 [INFO] 
 🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 22:20:21 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 22:20:21 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 22:20:21 [INFO] 🌍 Environment: development
+2025-05-29 22:27:45 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 22:27:46 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 22:27:46 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 22:27:46 [INFO] 🌍 Environment: development
+2025-05-29 22:29:02 [WARN] Unauthorized: Token expired
+2025-05-29 22:29:08 [WARN] Unauthorized: Token expired
+2025-05-29 22:33:25 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 22:33:26 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 22:33:26 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 22:33:26 [INFO] 🌍 Environment: development
+2025-05-29 22:43:12 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 22:43:13 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 22:43:13 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 22:43:13 [INFO] 🌍 Environment: development
+2025-05-29 23:06:04 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-29 23:06:05 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-29 23:06:05 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-29 23:06:05 [INFO] 🌍 Environment: development
+2025-05-29 23:23:10 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...

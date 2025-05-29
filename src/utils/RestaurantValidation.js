@@ -1,37 +1,22 @@
-
 const { validate: validateUuidV4 } = require('uuid');
-const {add} = require("winston");
 
-/**
- * Validate if a string is a valid UUID v4.
- * @param {string} restaurant_uuid - UUID string to validate.
- * @returns {boolean} True if valid UUID v4, false otherwise.
- */
 function validateUuid(restaurant_uuid) {
     return validateUuidV4(restaurant_uuid);
 }
 
-/**
- * Validate the structure and types of a Restaurant object.
- * @param {object} restaurants - Restaurant object to validate.
- * @param {string} restaurants.name
- * @param {string} restaurants.address
- * @param {string} restaurants.phone
- * @param {string} restaurants.created_at
- * @returns {{ valid: boolean, message?: string }}
- */
-function validateRestaurantData(restaurants) {
-    if (!restaurants || typeof restaurants !== 'object') {
-        return { valid: false, message: 'Restaurant data must be a valid object.' };
+function validateRestaurantData(data) {
+    if (!data || typeof data !== 'object') {
+        return { valid: false, message: 'Restaurant data must be an object.' };
     }
-
-    const { name, address, phone, created_at } = restaurants;
-
+    const { name, address, phone, created_at, region, description } = data;
     if (!name || typeof name !== 'string') {
         return { valid: false, message: 'Invalid or missing "name".' };
     }
     if (!address || typeof address !== 'string') {
         return { valid: false, message: 'Invalid or missing "address".' };
+    }
+    if (!region || typeof region !== 'string') {
+        return { valid: false, message: 'Invalid or missing "region".' };
     }
     if (!phone || typeof phone !== 'string') {
         return { valid: false, message: 'Invalid or missing "phone".' };
@@ -39,7 +24,9 @@ function validateRestaurantData(restaurants) {
     if (!created_at || typeof created_at !== 'string') {
         return { valid: false, message: 'Invalid or missing "created_at".' };
     }
-
+    if (description && typeof description !== 'string') {
+        return { valid: false, message: 'Invalid "description". Must be text.' };
+    }
     return { valid: true };
 }
 

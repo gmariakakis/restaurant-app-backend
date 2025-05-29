@@ -136,7 +136,8 @@ router.get('/', restaurantController.getAllRestaurants);
  *                   type: string
  *                   example: "Server error. Please try again later."
  */
-router.get('/:id', restaurantController.getRestaurantById);
+
+router.get('/:id', validateUUID, restaurantController.getRestaurantById);
 
 // Protected routes
 
