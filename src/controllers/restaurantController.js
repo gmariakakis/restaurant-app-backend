@@ -14,8 +14,9 @@ const getAllRestaurants = async (req, res) => {
       AND (
            LOWER(name   ) COLLATE utf8mb4_unicode_ci LIKE LOWER(?) COLLATE utf8mb4_unicode_ci
         OR LOWER(region ) COLLATE utf8mb4_unicode_ci LIKE LOWER(?) COLLATE utf8mb4_unicode_ci
+        OR LOWER(address) COLLATE utf8mb4_unicode_ci LIKE LOWER(?) COLLATE utf8mb4_unicode_ci
       )`;
-        params.push(`%${search}%`, `%${search}%`);
+        params.push(`%${search}%`, `%${search}%`, `%${search}%`);
     }
 
     /* προαιρετικά limit / offset */
