@@ -1,5 +1,5 @@
 {
-  "name": "book-api",
+  "name": "reservations-api",
   "version": "1.0.0",
   "main": "example.js",
   "jest": {

@@ -2151,5 +2151,17 @@ Error: connect ETIMEDOUT
 2025-05-30 02:33:57 [INFO] 🌍 Environment: development
 2025-05-30 02:38:28 [INFO] [Mock Email] Sending verification email to gc@gc.com
 2025-05-30 02:38:28 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNmMzMDQ3M2UtY2M3NC00N2ZjLTgzNDEtMmIxYmY5N2YzYzNlIiwiaWF0IjoxNzQ4NTYxOTA4LCJleHAiOjE3NDg2NDgzMDh9.javNztp0XxaSpM5D7nRfVe8qRbtoiq3ozBwxeHX3t_I
+2025-05-30 02:07:56 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 02:07:56 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 02:07:56 [INFO] 🌍 Environment: development
+2025-05-30 02:12:17 [INFO] [Mock Email] Sending verification email to gb@gb.com
+2025-05-30 02:12:17 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGU3Yzc5NDctNzYwMS00MWE4LTk1ZmEtZjIyZWY5OTk0MGZmIiwiaWF0IjoxNzQ4NTYwMzM3LCJleHAiOjE3NDg2NDY3Mzd9.btikn00zMITBZrYCC95knaE-AFJildp4m2bvUmc-0f4
+2025-05-30 02:33:54 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-30 02:33:57 [INFO] 📖 Swagger UI: http://localhost:3000/api-docs
+2025-05-30 02:33:57 [INFO] 🌐 App ready at: http://localhost:3000
+2025-05-30 02:33:57 [INFO] 🌍 Environment: development
+2025-05-30 02:38:28 [INFO] [Mock Email] Sending verification email to gc@gc.com
+2025-05-30 02:38:28 [INFO] [Mock Email] Verification link: https://yourdomain.com/api/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNmMzMDQ3M2UtY2M3NC00N2ZjLTgzNDEtMmIxYmY5N2YzYzNlIiwiaWF0IjoxNzQ4NTYxOTA4LCJleHAiOjE3NDg2NDgzMDh9.javNztp0XxaSpM5D7nRfVe8qRbtoiq3ozBwxeHX3t_I
 2025-05-30 03:08:29 [INFO] 
 🛑 SIGINT received. Shutting down server gracefully...
